@@ -9,8 +9,8 @@ let filaAtendimento = [
 console.log("Antes do unshift:")
 console.table(filaAtendimento);
 
-// Adicionando um novo estilo no início da playlist
-playlist.unshift('Rock');
+// Adicionando novos clientes
+filaAtendimento.unshift('cliente 001', 'cliente 002');
 
 console.log("Depois do unshift:");
-console.table(playlist);
+console.table(filaAtendimento);
