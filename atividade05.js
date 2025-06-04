@@ -9,7 +9,7 @@ let importados = [
   console.log("Antes do shift:");
   console.table(importados);
   
-  // Removendo o primeiro estilo
+  // Removendo o primeiro produto importado
   let importadoRemovido = importados.shift();
   
   console.log("Depois do shift:");
