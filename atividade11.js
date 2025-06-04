@@ -7,5 +7,5 @@ let ingredientes = [
     "manteiga"
   ];
 
-// Separando a lista por "-" em uma única frase
+// Separando a lista por "," em uma única frase
 console.log("Todos os ingredientes em uma frase:", ingredientes.join(', ')); 
