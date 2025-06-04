@@ -9,7 +9,7 @@ let mensagens = [
   console.log("Antes do shift:");
   console.table(mensagens);
   
-  // Removendo o primeiro estilo
+  // Removendo a primeira mensagem indevida
   let mensagemRemovida = mensagens.shift();
   
   console.log("Depois do shift:");
